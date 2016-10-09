@@ -27,7 +27,7 @@ class puzzleViewController: UIViewController, tileViewDelegate {
     
     override func viewDidLoad() {
        board.delegate = self
-        
+        print("1")
             }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
